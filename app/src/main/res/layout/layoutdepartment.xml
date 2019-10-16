@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="20dp">
+
+    <ImageView
+        android:id="@+id/imgsuper"
+        android:layout_width="wrap_content"
+        android:layout_height="160dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.314"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+    <!--<TextView-->
+        <!--android:id="@+id/txtitmes"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginBottom="8dp"-->
+        <!--android:text="TextView"-->
+        <!--android:textColor="@color/active_indicator"-->
+        <!--android:textStyle="normal|bold"-->
+        <!--app:layout_constraintBottom_toBottomOf="@+id/imgsuper"-->
+        <!--app:layout_constraintEnd_toEndOf="@+id/imgsuper"-->
+        <!--app:layout_constraintStart_toStartOf="@+id/imgsuper"-->
+        <!--app:layout_constraintTop_toTopOf="@+id/imgsuper" />-->
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view" >
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home_page"
+            android:icon="@mipmap/ic_home"
+            android:title="Home Page" />
+        <item
+            android:id="@+id/my_order"
+            android:icon="@mipmap/ic_myorder"
+            android:title="My Order" />
+        <item
+            android:id="@+id/notification"
+            android:icon="@mipmap/ic_notification"
+            android:title="notification" />
+        <item
+            android:id="@+id/settings"
+            android:icon="@mipmap/ic_settings"
+            android:title="Settings" />
+        <item
+            android:id="@+id/about_app"
+            android:icon="@mipmap/ic_about_app"
+            android:title="About App" />
+    </group>
+
+</menu>

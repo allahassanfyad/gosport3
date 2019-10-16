@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="hago.gosport">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".AddressActivity"></activity>
+        <activity android:name=".OrderssActivity" />
+        <activity android:name=".EmailActivisionActivity" />
+        <activity
+            android:name=".ItemsActivity"
+            android:label="@string/title_activity_items" />
+        <activity
+            android:name=".logoActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:theme="@style/FullscreenTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SigninActivity" />
+        <activity android:name=".OnbordingActivity" />
+        <activity android:name=".RegistrationActivity" />
+        <activity
+            android:name=".MainUserActivity"
+            android:label=""
+            android:theme="@style/AppTheme" />
+    </application>
+
+</manifest>

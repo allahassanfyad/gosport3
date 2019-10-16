@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backwelcome"
+    tools:context=".RegistrationActivity"
+    tools:layout_editor_absoluteY="25dp">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Your Email"
+        android:textColor="@color/colorWhith"
+        android:textSize="12sp"
+        android:typeface="monospace"
+        app:layout_constraintBottom_toTopOf="@+id/txtEmail"
+        app:layout_constraintStart_toStartOf="@+id/txtEmail" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Your Frist Name"
+        android:textColor="@color/colorWhith"
+        android:textSize="12sp"
+        android:typeface="monospace"
+        app:layout_constraintBottom_toTopOf="@+id/txtnameaddress"
+        app:layout_constraintStart_toStartOf="@+id/txtnameaddress" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter The Password"
+        android:textColor="@color/colorWhith"
+        android:textSize="12sp"
+        android:typeface="monospace"
+        app:layout_constraintBottom_toTopOf="@+id/txtstrname"
+        app:layout_constraintStart_toStartOf="@+id/txtstrname" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Your Last Name"
+        android:textColor="@color/colorWhith"
+        android:textSize="12sp"
+        android:typeface="monospace"
+        app:layout_constraintBottom_toTopOf="@+id/txtbuildingnumber"
+        app:layout_constraintStart_toStartOf="@+id/txtbuildingnumber" />
+
+    <!--<ImageView-->
+    <!--android:id="@+id/imgView"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginStart="8dp"-->
+    <!--android:layout_marginLeft="8dp"-->
+    <!--android:layout_marginTop="8dp"-->
+    <!--android:layout_marginEnd="8dp"-->
+    <!--android:layout_marginRight="8dp"-->
+    <!--android:layout_marginBottom="8dp"-->
+    <!--app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--app:layout_constraintEnd_toEndOf="parent"-->
+    <!--app:layout_constraintStart_toStartOf="parent"-->
+    <!--app:layout_constraintTop_toTopOf="parent"-->
+    <!--app:layout_constraintVertical_bias="0.043"-->
+    <!--app:srcCompat="@drawable/image3" />-->
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Your Username"
+        android:textColor="@color/colorWhith"
+        android:textSize="12sp"
+        android:typeface="monospace"
+        app:layout_constraintBottom_toTopOf="@+id/txtnumberphone"
+        app:layout_constraintStart_toStartOf="@+id/txtnumberphone" />
+
+    <TextView
+        android:id="@+id/txtView"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:text="Create Account"
+        android:textAllCaps="true"
+        android:textColor="@color/colorWhith"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:typeface="monospace"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/txtnameaddress"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="24dp"
+        android:digits="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
+        android:ems="10"
+        android:inputType="textCapWords"
+        android:singleLine="true"
+        android:textColor="@color/colorWhith"
+        android:textColorHint="@color/colorWhith"
+        android:textSize="14sp"
+        android:typeface="monospace"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtView" />
+
+
+    <EditText
+        android:id="@+id/txtbuildingnumber"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:digits="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
+        android:ems="10"
+        android:inputType="textCapWords"
+        android:singleLine="true"
+        android:textColor="@color/colorWhith"
+        android:textColorHint="@color/colorWhith"
+        android:textSize="14sp"
+        android:typeface="monospace"
+        app:layout_constraintEnd_toEndOf="@+id/txtnameaddress"
+        app:layout_constraintStart_toStartOf="@+id/txtnameaddress"
+        app:layout_constraintTop_toBottomOf="@+id/txtnameaddress" />
+
+    <EditText
+        android:id="@+id/txtnumberphone"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:digits="abcdefghijklmnopqrstuvwxyz1234567890_"
+        android:ems="10"
+        android:inputType="textFilter"
+        android:maxLength="15"
+        android:singleLine="true"
+        android:textColor="@color/colorWhith"
+        android:textColorHint="@color/colorWhith"
+        android:textSize="14sp"
+        android:typeface="monospace"
+        app:layout_constraintEnd_toEndOf="@+id/txtbuildingnumber"
+        app:layout_constraintStart_toStartOf="@+id/txtbuildingnumber"
+        app:layout_constraintTop_toBottomOf="@+id/txtbuildingnumber" />
+
+    <EditText
+        android:id="@+id/txtstrname"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="8dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:password="true"
+        android:singleLine="true"
+        android:textColor="@color/colorWhith"
+        android:textColorHint="@color/colorWhith"
+        android:textSize="14sp"
+        android:typeface="monospace"
+        app:layout_constraintEnd_toEndOf="@+id/txtnumberphone"
+        app:layout_constraintStart_toStartOf="@+id/txtnumberphone"
+        app:layout_constraintTop_toBottomOf="@+id/txtnumberphone" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enater Your Phone number"
+        android:textColor="@color/colorWhith"
+        android:textSize="12sp"
+        android:typeface="monospace"
+        app:layout_constraintBottom_toTopOf="@+id/txtPhone"
+        app:layout_constraintStart_toStartOf="@+id/txtPhone" />
+
+    <EditText
+        android:id="@+id/txtEmail"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:digits="asdfghjklqwertyuiopzxcvbnm1234567890@_."
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:singleLine="true"
+        android:textColor="@color/colorWhith"
+        android:textColorHint="@color/colorWhith"
+        android:textSize="14sp"
+        android:typeface="monospace"
+        app:layout_constraintEnd_toEndOf="@+id/txtstrname"
+        app:layout_constraintStart_toStartOf="@+id/txtstrname"
+        app:layout_constraintTop_toBottomOf="@+id/txtstrname" />
+
+    <EditText
+        android:id="@+id/txtPhone"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:digits="1234567890"
+        android:ems="10"
+        android:inputType="phone"
+        android:maxLength="11"
+        android:singleLine="true"
+        android:textColor="@color/colorWhith"
+        android:textColorHint="@color/colorWhith"
+        android:textSize="14sp"
+        android:typeface="monospace"
+        app:layout_constraintEnd_toEndOf="@+id/txtEmail"
+        app:layout_constraintStart_toStartOf="@+id/txtEmail"
+        app:layout_constraintTop_toBottomOf="@+id/txtEmail" />
+
+    <Button
+        android:id="@+id/btnaddaddress"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/signin"
+        android:text="Sign Up"
+        android:textAllCaps="false"
+        android:textColor="@color/colorWhith"
+        android:typeface="monospace"
+        app:layout_constraintEnd_toEndOf="@+id/txtPhone"
+        app:layout_constraintStart_toStartOf="@+id/txtPhone"
+        app:layout_constraintTop_toBottomOf="@+id/txtPhone" />
+
+
+</android.support.constraint.ConstraintLayout>

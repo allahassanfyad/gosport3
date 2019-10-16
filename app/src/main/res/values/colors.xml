@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#d32388</color>
+    <color name="colorPrimaryDark">#d21f86</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorSignUp">#fd019d</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="colorWhith">#FFFFFF</color>
+    <color name="colorbackonbord">#311460</color>
+    <color name="colorpuerple">#d32388</color>
+    <color name="colorchekbox">#d21f86</color>
+</resources>
